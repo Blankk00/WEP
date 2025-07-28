@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Will P. – Personal Page</title>
+<style>
+  body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+    background-color: #f8f9fa;
+  }
+
+  img {
+    margin: 1rem 0;
+    border-radius: 8px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 2rem;
+  }
+
+  input, textarea, button {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+
+  button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+  ul {
+  list-style-position: inside;
+  padding: 0;
+  text-align: left;
+  max-width: 400px;
+  margin: 0 auto;
+}
+</style>
+
+
+</head>
+<body style="background-color: off white;">
+<img src="wep-logo.png" alt="WEP Logo" width="150" />
+
+  <h1>Hello, I'm Will!</h1>
+  <p>Welcome to my personal webpage. I'm a gamer, tech enthusiast, and learning HTML!</p>
+
+  <h2>About Me</h2>
+  <img src="will-photo.JPG" alt="Photo of Will" width="200" />
+  
+<ul>
+  <li><strong>Born:</strong> 1988</li>
+  <li><strong>Heritage:</strong> Samoan</li>
+  <li><strong>Interests:</strong> Gaming, hacking, crypto</li>
+</ul>
+
+
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:blank00@outlook.com">blank00@outlook.com</a></p>
+  <p>Check out my <a href="https://github.com/ILL-77IM" target="_blank">GitHub</a>!</p>
+  <h2>Contact</h2>
+<form action="#" method="post">
+  <label for="name">Name:</label><br />
+  <input type="text" id="name" name="name" required /><br /><br />
+
+  <label for="email">Email:</label><br />
+  <input type="email" id="email" name="email" required /><br /><br />
+
+  <label for="message">Message:</label><br />
+  <textarea id="message" name="message" rows="5" required></textarea><br /><br />
+
+  <button type="submit">Send Message</button>
+</form>
+</body>
+</html>
+
